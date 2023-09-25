@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-permalink: /about
+title: Tim Cranston
+permalink: /
 ---
 We provide creative and quality web development and consultancy services to individuals and small businesses, enabling them to acheive a dynamic and appealing web presence. Our services include:
 
