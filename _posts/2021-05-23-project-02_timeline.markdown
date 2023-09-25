@@ -1,13 +1,13 @@
 ---
 layout: portfolio
-modal-id: 2a
-modal-title: kbc2a
-date: 2012-01-01
-img: kbc_1066x666.jpg
-alt: Kidlington Baptist Church Website Screenshot
-project-date: January 2012
-client: Kidlington Baptist Church
+modal-id: 2
+modal-title: kbc2
+date: 2021-05-20
+img: timeline_site_1066x666.jpg
+alt: Clinical Trials Timeline
+project-date: May 2021
+client: Clinical Trials Timeline
 category: Website Redesign
-website: http://www.kidlington-baptist.org.uk/
-description: Kidlington Baptist Church's was redesigned using Google Sites, to create a simple and cost effect website, serving the church.
+website: https://timcranston.uk/ct-timeline/
+description: An overview of the history of clinical trials, for International Clinical Trial Day
 ---

@@ -2,12 +2,12 @@
 layout: portfolio
 modal-id: 07
 modal-title: vfl07
-date: 2016-05-01
-img: vetlifu_1066x666.jpg
-alt: VetLIFU Website Screenshot
-project-date: May 2016
+date: 2022-12-31
+img: exectu2022_poster_1066x666.jpg
+alt: ExeCTU 2022 in numbers
+project-date: Dec 2022
 client: VetLIFU Ltd.
 category: Website Design
-website: http://www.vetlifu.com
-description: VetLIFU in a new company offering a new generation of therapeutic ultrasound to animals. VetLIFU wanted a modern responsive websites to reflect this exciting new technology for the vet world, giving us creative freedom to design it. We were excited to develop a beauitful website for VetLIFU, which they love.
+website: https://timcranston.uk/posters/ExeCTU_2022_in_Numbers.jpg
+description: Infographic summarising the activities of the CTU in 2022
 ---
