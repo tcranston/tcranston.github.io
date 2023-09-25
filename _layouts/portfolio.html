@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-10 
+                            col-md-offset-1 col-md-10 
+                            col-sm-offset-1 col-sm-10 
+                            col-xs-offset-1 col-xs-10">
+                    <h1>Portfolio</h1>
+                    <div class="row">
+                        {% for post in site.posts %}
+                            <div class="col-sm-4 col-md-4">
+                                <div class="thumbnail text-center">
+                                    <a href="#" title="" alt="" data-toggle="modal" data-target="#portfolioModal-{{ post.modal-title }}">
+                                    <img src="img/portfolio/{{ post.img }}" alt="{ post.alt }}">
+                                    </a>
+                                    <div class="caption">
+                                        <a href="#" title="" alt="" data-toggle="modal" data-target="#portfolioModal-{{ post.modal-title }}">
+                                        <h4>{{ post.client }}</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div> 
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    {% include analytics.html %}
+    </body>
+</html>

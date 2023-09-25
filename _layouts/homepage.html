@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png"  href="{{ site.favicon | prepend: site.baseurl }}">
+
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        
+        <meta name="keywords" content="{{ site.keywords }}">
+
+        <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+<!--             <link rel="stylesheet" href="{{ "/css/bootstrap-modal-bs3patch.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bootstrap-modal.css" | prepend: site.baseurl }}"> -->
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+ 
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    </head>
+    <body id="page-top" class="index">
+        <div class="container-fluid text-center">
+            <div class="hp-content">
+                <div class="row cit-title">
+                    <div class=".col-xs-12 ">{{ site.title_p1 }} 
+                        <span class="cit-it fadeIn-first">{{ site.title_p2 }}</span>
+                    </div>
+                </div>
+                <div class"row">
+                    <div class="fadeIn-first cit-subtitle">{{ site.sub_title }}</div>
+                </div> 
+                <div class"row">
+                    <div class="fadeIn-second cit-slogan">{{ site.slogan }}</div>
+                </div>
+                <div class"row">
+                    <div class="fadeIn-second cit-menu">
+                        <ul class="list-inline">
+                            {% for link in site.menu %}
+                                <li>
+                                    <a href="{{ link.url }}">{{ link.title }}</a>
+                                </li>
+                                {% if forloop.last == false %}
+                                    <li>|</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        </div>
+            <script src="js/jquery-2.1.4.min.js"></script>
+            <!-- <script src="js/bootstrap.min.js"></script>
+            <script src="js/bootstrap-modalmanager.js"></script>
+            <script src="js/bootstrap-modal.js"></script> -->
+
+            <script type="text/javascript">
+                    $(".fadeIn-first").delay(0).animate({opacity: 1}, 4000);
+                    $(".fadeIn-second").delay(2000).animate({opacity: 1}, 3000);
+            </script>
+            {% include analytics.html %}
+    </body>
+</html>

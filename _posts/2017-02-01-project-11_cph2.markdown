@@ -1,0 +1,14 @@
+---
+layout: portfolio
+modal-id: 11
+modal-title: cph2111
+date: 2017-02-01
+img: cph2_1066x666.jpg
+alt: Clean Power Hydrogen Screenshot
+project-date: Feburary 2017
+client: Clean Power Hydrogen Ltd
+category: Website Design and Development
+website: http://www.cph2.com/
+description: Clean Power Hydrogen Group Limited is applying new technology to deliver hydrogen-based solutions for the transportation, power and gas sectors. It is a rapidly building a business which will provide solutions both UK and worldwide, to emissions reduction and energy storage. It approached Cranston IT to produce a dynamic and scalable website that can rapidly response to the growth of this exciting new company.
+---
+

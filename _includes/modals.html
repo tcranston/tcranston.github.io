@@ -1,0 +1,30 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+ <div id="portfolioModal-{{ post.modal-title }}" class="modal fade" tabindex="-1" data-width="700" style="display: none; width: 700px; margin-left: -348.667px; margin-top: -276.667px;" aria-hidden="true">
+                            
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><strong>{{ post.client }}</strong></h4>
+    </div>
+    <div class="modal-body ">
+        <img src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}" class="img-thumbnail center-block">
+        <p>{{ post.description }}</p>
+        <p>{{ content }}</p>
+        <ul class="list-inline item-details">
+            <li>Client:
+                {{ post.client }}
+            </li>
+            <li>Date:
+                {{ post.project-date }}
+            </li>
+            <li>Service:
+                {{ post.category }}
+            </li>
+        </ul>
+    </div>
+    <div class="modal-footer">
+        <a href="{{ post.website }}" class="btn btn-primary" role="button" target="_blank">Visit Website</a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+</div>
+{% endfor %}
