@@ -9,5 +9,5 @@ project-date: December 2022
 client: Exeter Clinical Trials 2022 in Numbers
 category: Website Design
 website: https://timcranston.uk/posters/ExeCTU_2022_in_Numbers.jpg
-description: Infographic summarising the activities of the CTU in 2022
+description: Infographic poster to summarise and communicate Exeter Clinical Trial Units efforts and achivements for 2022.
 ---

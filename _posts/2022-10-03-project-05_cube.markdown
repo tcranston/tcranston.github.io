@@ -10,5 +10,4 @@ client: Website: The Rubik's Cube:tm: of Information Systems in Clinical Trials
 category: Website Redesign
 website: https://timcranston.uk/ukcrc-rubikscube
 description: Interactive website highlighting the importance of the IS and data management function in the successful development and delivery of clinical trials
-
 ---
