@@ -7,18 +7,12 @@
         <h4 class="modal-title" id="myModalLabel"><strong>{{ post.client }}</strong></h4>
     </div>
     <div class="modal-body ">
-        <img src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}" class="img-thumbnail center-block">
+         <a href="{{ post.website }}" role="button" target="_blank"><img src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}" class="img-thumbnail center-block"></a>
         <p>{{ post.description }}</p>
         <p>{{ content }}</p>
         <ul class="list-inline item-details">
-            <li>Client:
-                {{ post.client }}
-            </li>
             <li>Date:
                 {{ post.project-date }}
-            </li>
-            <li>Service:
-                {{ post.category }}
             </li>
         </ul>
     </div>
