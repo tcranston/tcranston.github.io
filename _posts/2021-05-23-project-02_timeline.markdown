@@ -1,7 +1,7 @@
 ---
 layout: portfolio
-modal-id: 2
-modal-title: kbc2
+modal-id: 02
+modal-title: ct-history
 date: 2021-05-20
 img: timeline_site_1066x666.jpg
 alt: Clinical Trials Timeline

@@ -1,7 +1,7 @@
 ---
 layout: portfolio
-modal-id: 2
-modal-title: idf2
+modal-id: 01
+modal-title: octru
 date: 2018-11-01
 img: octru_poster_1066x666.jpg
 alt: Research Depends on IT - Poster

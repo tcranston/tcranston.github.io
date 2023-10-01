@@ -1,7 +1,7 @@
 ---
 layout: portfolio
-modal-id: 3
-modal-title: wot
+modal-id: 03
+modal-title: ctu2021numbers
 date: 2021-12-31
 img: exectu2021_poster_1066x666.jpg
 alt: Exeter Clinical Trials Unit 2021 in Numbers

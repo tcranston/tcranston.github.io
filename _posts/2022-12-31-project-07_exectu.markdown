@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 modal-id: 07
-modal-title: vfl07
+modal-title: ct2022numbers
 date: 2022-12-31
 img: exectu2022_poster_1066x666.jpg
 alt: ExeCTU 2022 in numbers
